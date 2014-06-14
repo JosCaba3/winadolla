@@ -25,6 +25,8 @@
 {
     self.helloLabel.text = @"Hello world!";
     NSLog(@"lol cadskfjnakdsjf");
+    NSLog(@"lol cadskfjnakdsjf");
+    NSLog(@"lol cadskfjnakdsjf");
 }
 
 
