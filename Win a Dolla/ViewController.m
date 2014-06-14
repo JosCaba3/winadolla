@@ -24,6 +24,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
 -(void)successfulLogin
 {
     DwollaUser *user = [[DwollaAPI sharedInstance] getAccountInfo];
@@ -52,14 +53,14 @@
 {
     int randomNumber = arc4random() % 100;
     
-    if (randomNumber < 49) {
+    if (randomNumber < 45) {
         //win
         [[DwollaAPI sharedInstance] setAccessToken:[[NSUserDefaults standardUserDefaults]objectForKey:@"jason_access_token"]];
         
         NSString* request = [self.dwollaAPI sendMoneyWithPIN:@"4508" destinationID:self.destinationID destinationType:@"" amount:@"0.01" facilitatorAmount:@"0" assumeCosts:@"false" notes:@"you win!" fundingSourceID:@""];
         NSLog(@"%@", request);
         
-        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"YOU WIN" message:@"YOU WIN" delegate:nil cancelButtonTitle:@"FUCK YES" otherButtonTitles: nil];
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"YOU WIN" message:@"TRY AGAIN" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
         [alertView show];
         self.view.backgroundColor = [UIColor greenColor];
     }
@@ -71,7 +72,7 @@
         NSString* request = [self.dwollaAPI sendMoneyWithPIN:self.userPin destinationID:@"210-238-0423" destinationType:@"Phone" amount:@"0.01" facilitatorAmount:@"0" assumeCosts:@"false" notes:@"you lost!" fundingSourceID:@""];
         NSLog(@"%@", request);
         
-        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"YOU LOSE" message:@"YOU LOSE" delegate:nil cancelButtonTitle:@"FUCK NO" otherButtonTitles: nil];
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"YOU LOSE" message:@"TRY AGAIN" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
         [alertView show];
         self.view.backgroundColor = [UIColor redColor];
 
