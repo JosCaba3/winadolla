@@ -18,7 +18,6 @@
 @property (nonatomic, retain) IBOutlet UILabel *helloLabel;
 
 -(IBAction)changePressed:(id)sender;
-
 -(IBAction)changebackPressed:(id)sender;
 
 
