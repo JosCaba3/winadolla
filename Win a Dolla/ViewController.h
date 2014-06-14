@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+
 {
     UILabel *hellolabel;
 }
@@ -17,6 +18,9 @@
 @property (nonatomic, retain) IBOutlet UILabel *helloLabel;
 
 -(IBAction)changePressed:(id)sender;
+
+-(IBAction)changebackPressed:(id)sender;
+
 
 
 @end
