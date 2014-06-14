@@ -11,15 +11,12 @@
 
 @interface ViewController : UIViewController
 
-{
-    UILabel *hellolabel;
-}
 
 @property (nonatomic, retain) IBOutlet UILabel *helloLabel;
 @property (nonatomic, retain) IBOutlet UIButton *WinOrLoseButton;
 @property (nonatomic, retain) IBOutlet UIButton *Dwolla;
 
--(IBAction)changePressed:(id)sender;
+-(IBAction):(id)sender;
 -(IBAction)changebackPressed:(id)sender;
 
 
