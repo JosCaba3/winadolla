@@ -19,8 +19,7 @@
 @property (nonatomic, retain) IBOutlet UIButton *WinOrLoseButton;
 @property (nonatomic, retain) IBOutlet UIButton *Dwolla;
 
--(IBAction)changePressed:(id)sender;
--(IBAction)changebackPressed:(id)sender;
+-(IBAction)playPress:(id)sender;
 
 
 
