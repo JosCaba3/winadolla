@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F03693E3194C133C00C8AFC8 /* libDwollaOAuthLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F03693E0194C132900C8AFC8 /* libDwollaOAuthLib.a */; };
 		F0B188C3194BECCE00A21896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B188C2194BECCE00A21896 /* Foundation.framework */; };
 		F0B188C5194BECCE00A21896 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B188C4194BECCE00A21896 /* CoreGraphics.framework */; };
 		F0B188C7194BECCE00A21896 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B188C6194BECCE00A21896 /* UIKit.framework */; };
@@ -25,6 +26,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F03693DB194C132900C8AFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03693D5194C132900C8AFC8 /* DwollaOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F534DB9A157EB04E000E2BF8;
+			remoteInfo = DwollaOAuth;
+		};
+		F03693DD194C132900C8AFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03693D5194C132900C8AFC8 /* DwollaOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EDBE3DA16811A71007FD655;
+			remoteInfo = Test;
+		};
+		F03693DF194C132900C8AFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03693D5194C132900C8AFC8 /* DwollaOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 889FF8A4166699B40037DC40;
+			remoteInfo = DwollaOAuthLib;
+		};
+		F03693E1194C133600C8AFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03693D5194C132900C8AFC8 /* DwollaOAuth.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 889FF8A3166699B40037DC40;
+			remoteInfo = DwollaOAuthLib;
+		};
 		F0B188E8194BECCE00A21896 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F0B188B7194BECCE00A21896 /* Project object */;
@@ -35,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F03693D5194C132900C8AFC8 /* DwollaOAuth.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DwollaOAuth.xcodeproj; path = "dwolla-ios/DwollaOAuth.xcodeproj"; sourceTree = "<group>"; };
 		F0B188BF194BECCE00A21896 /* Win a Dolla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Win a Dolla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B188C2194BECCE00A21896 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0B188C4194BECCE00A21896 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03693E3194C133C00C8AFC8 /* libDwollaOAuthLib.a in Frameworks */,
 				F0B188C5194BECCE00A21896 /* CoreGraphics.framework in Frameworks */,
 				F0B188C7194BECCE00A21896 /* UIKit.framework in Frameworks */,
 				F0B188C3194BECCE00A21896 /* Foundation.framework in Frameworks */,
@@ -81,9 +112,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F03693D6194C132900C8AFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F03693DC194C132900C8AFC8 /* DwollaOAuth.app */,
+				F03693DE194C132900C8AFC8 /* Test.app */,
+				F03693E0194C132900C8AFC8 /* libDwollaOAuthLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F03693E4194C222C00C8AFC8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		F0B188B6194BECCE00A21896 = {
 			isa = PBXGroup;
 			children = (
+				F03693D5194C132900C8AFC8 /* DwollaOAuth.xcodeproj */,
 				F0B188C8194BECCE00A21896 /* Win a Dolla */,
 				F0B188EA194BECCE00A21896 /* Win a DollaTests */,
 				F0B188C1194BECCE00A21896 /* Frameworks */,
@@ -120,6 +169,7 @@
 				F0B188D7194BECCE00A21896 /* Main_iPad.storyboard */,
 				F0B188DA194BECCE00A21896 /* ViewController.h */,
 				F0B188DB194BECCE00A21896 /* ViewController.m */,
+				F03693E4194C222C00C8AFC8 /* New Group */,
 				F0B188DD194BECCE00A21896 /* Images.xcassets */,
 				F0B188C9194BECCE00A21896 /* Supporting Files */,
 			);
@@ -169,6 +219,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F03693E2194C133600C8AFC8 /* PBXTargetDependency */,
 			);
 			name = "Win a Dolla";
 			productName = "Win a Dolla";
@@ -218,6 +269,12 @@
 			mainGroup = F0B188B6194BECCE00A21896;
 			productRefGroup = F0B188C0194BECCE00A21896 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F03693D6194C132900C8AFC8 /* Products */;
+					ProjectRef = F03693D5194C132900C8AFC8 /* DwollaOAuth.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F0B188BE194BECCE00A21896 /* Win a Dolla */,
@@ -225,6 +282,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F03693DC194C132900C8AFC8 /* DwollaOAuth.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DwollaOAuth.app;
+			remoteRef = F03693DB194C132900C8AFC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F03693DE194C132900C8AFC8 /* Test.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Test.app;
+			remoteRef = F03693DD194C132900C8AFC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F03693E0194C132900C8AFC8 /* libDwollaOAuthLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDwollaOAuthLib.a;
+			remoteRef = F03693DF194C132900C8AFC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F0B188BD194BECCE00A21896 /* Resources */ = {
@@ -270,6 +351,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F03693E2194C133600C8AFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DwollaOAuthLib;
+			targetProxy = F03693E1194C133600C8AFC8 /* PBXContainerItemProxy */;
+		};
 		F0B188E9194BECCE00A21896 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F0B188BE194BECCE00A21896 /* Win a Dolla */;
@@ -316,7 +402,7 @@
 		F0B188F2194BECCE00A21896 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,6 +431,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/dwolla-ios/DwollaOAuthLib/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -355,7 +446,7 @@
 		F0B188F3194BECCE00A21896 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -378,6 +469,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/dwolla-ios/DwollaOAuthLib/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,6 +566,7 @@
 				F0B188F6194BECCE00A21896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0B188F7194BECCE00A21896 /* Build configuration list for PBXNativeTarget "Win a DollaTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +575,7 @@
 				F0B188F9194BECCE00A21896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
