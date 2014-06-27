@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6723EA6E-7F6D-411B-863B-B1F2F79EA0AF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Win a Dolla</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4072CB3-80AC-4894-BC67-E06EC1AEDAD0</key>
+		<string>https://github.com/JosCaba3/winadolla.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Win a Dolla.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4072CB3-80AC-4894-BC67-E06EC1AEDAD0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JosCaba3/winadolla.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4072CB3-80AC-4894-BC67-E06EC1AEDAD0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4072CB3-80AC-4894-BC67-E06EC1AEDAD0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>winadolla</string>
+		</dict>
+	</array>
+</dict>
+</plist>

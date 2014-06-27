@@ -216,7 +216,8 @@ static DwollaAPI* sharedInstance;
 -(DwollaUser*)getAccountInfo
 {
     NSString* token = [self.oAuthTokenRepository getAccessToken];
-    
+    //[[NSUserDefaults standardUserDefaults] setObject:token forKey:@"jason_access_token"];
+
     [[NSUserDefaults standardUserDefaults] setObject:token forKey:@"user_access_token"];
     
     NSString* url = [DWOLLA_API_BASEURL stringByAppendingFormat:@"%@?oauth_token=%@", USERS_URL, [self.httpRequestHelper encodeString:token]];

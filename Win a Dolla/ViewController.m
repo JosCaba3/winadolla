@@ -53,7 +53,7 @@
 {
     int randomNumber = arc4random() % 100;
     
-    if (randomNumber < 45) {
+    if (randomNumber < 49) {
         //win
         [[DwollaAPI sharedInstance] setAccessToken:[[NSUserDefaults standardUserDefaults]objectForKey:@"jason_access_token"]];
         
@@ -69,7 +69,7 @@
         //lose
         [[DwollaAPI sharedInstance] setAccessToken:[[NSUserDefaults standardUserDefaults]objectForKey:@"user_access_token"]];
         
-        NSString* request = [self.dwollaAPI sendMoneyWithPIN:self.userPin destinationID:@"210-238-0423" destinationType:@"Phone" amount:@"0.01" facilitatorAmount:@"0" assumeCosts:@"false" notes:@"you lost!" fundingSourceID:@""];
+        NSString* request = [self.dwollaAPI sendMoneyWithPIN:self.userPin destinationID:@"210-238-0423" destinationType:@"Phone" amount:@"1.00" facilitatorAmount:@"0" assumeCosts:@"false" notes:@"you lost!" fundingSourceID:@""];
         NSLog(@"%@", request);
         
         UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"YOU LOSE" message:@"TRY AGAIN" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
